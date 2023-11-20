@@ -254,6 +254,7 @@
   .cafe .row .content h3,
   .perpustakaan .row .content h3,
   .destinasi .row .content h3 {
+    margin-top: 2rem;
     font-size: 1.8rem;
     margin-bottom: 1rem;
   }
@@ -262,6 +263,7 @@
   .cafe .row .content p,
   .perpustakaan .row .content p,
   .destinasi .row .content p {
+    text-align: justify;
     margin-bottom: 0.8rem;
     font-size: 1.4rem;
     font-weight: 100;
@@ -314,7 +316,9 @@
   
   .contact p {
     padding-inline: 5rem;
+    font-size: 12px;
   }
+
   .contact form {
     flex: 1 1 45rem;
     padding: 2rem 5rem;
@@ -364,17 +368,8 @@
     color: var(--background);
   }
   
-  footer .links {
-    margin-bottom: 1.4rem;
-    margin-top: 1rem;
-  }
-  footer .links a {
-    color: #fff;
-    padding: 0.7rem 1rem;
-    text-decoration: none;
-  }
-  
   footer .credit {
+    margin-top: 1rem;
     font-size: 0.8rem;
   }
   
@@ -431,12 +426,15 @@
   .photo-detail .container .content-container .content-img h4 {
     color: black;
     font-size: 1rem;
+    margin-top: 15px;
   }
   
   .photo-detail .container .content-container .content-img p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.6;
+    padding-top: 1rem;
+    text-align: justify;
     color: black;
   }
   
@@ -575,4 +573,3 @@
       }
     }
   }
-  
